@@ -151,7 +151,7 @@ public class LotteryGeneratorSurvey {
 
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("What is your name?");   
+		System.out.println("What is your name?");   
 		String name = input.nextLine();
 
 		System.out.println("Hello, "+name);
@@ -235,7 +235,7 @@ public class LotteryGeneratorSurvey {
 			balls[3] = handleOutOfRangeNumber(favoriteThespian.charAt(0), MIN_NORMAL_BALL, MAX_NORMAL_BALL);
 			balls[4] = handleOutOfRangeNumber(favoriteThespian.charAt(favoriteThespian.length()-1), MIN_NORMAL_BALL, MAX_NORMAL_BALL);
 			
-			System.out.printf("Lottery Numbers: %d, %d, %d, %d, %d", 
+			System.out.printf("Lottery Numbers: %d, %d, %d, %d, %d\n", 
 					balls[0], balls[1], balls[2], balls[3], balls[4], magicBall);
 			
 	
